@@ -1,0 +1,13 @@
+{
+  "name": "webtransport-multiplayer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fails-components/webtransport": "latest",
+    "@fails-components/webtransport-transport-http3-quiche": "latest",
+    "@peculiar/x509": "^1.12.3"
+  }
+}
